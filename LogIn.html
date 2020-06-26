@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Gaya glasses shop</title>
+    <link rel="stylesheet" href="Glasses.css">
+  </head>
+  <body>
+    <style>
+      body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #C7E4F3; 
+    
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+
+.navbar {
+  width: 100%;
+  background-color:#00B4CC;
+  overflow: auto;
+}
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+.navbar a:hover {
+  background-color: #000;
+  color: #C7E4F3;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.categories{
+  float: left;
+  padding-left:150px;
+}
+ .aknoc{
+  padding-left: 40px;
+ }
+
+ body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #018CFF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+    </style>
+    
+    
+    <div class="navbar">
+      <img src="https://i.pinimg.com/originals/18/35/93/1835936c6c6f82cf3e3cab3661201b30.png" width="95"alt=""> 
+      
+      <a href="index.html"><svg class="bi bi-house-door" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+        <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+      </svg><i class="fa fa-fw fa-home"></i> Home</a>
+      <a href=""><svg class="bi bi-search" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+        <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+      </svg> <i class="fa fa-fw fa-search"></i> Search</a>
+      <a href="#"><svg class="bi bi-envelope" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M14 3H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"/>
+        <path d="M.05 3.555C.017 3.698 0 3.847 0 4v.697l5.803 3.546L0 11.801V12c0 .306.069.596.192.856l6.57-4.027L8 9.586l1.239-.757 6.57 4.027c.122-.26.191-.55.191-.856v-.2l-5.803-3.557L16 4.697V4c0-.153-.017-.302-.05-.445L8 8.414.05 3.555z"/>
+      </svg><i class="fa fa-fw fa-envelope"></i> Contact</a>
+      <a href=""><svg class="bi bi-person-plus" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M11 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM1.022 13h9.956a.274.274 0 0 0 .014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 0 0 .022.004zm9.974.056v-.002.002zM6 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm4.5 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+        <path fill-rule="evenodd" d="M13 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0v-2z"/>
+      </svg><i class="fa fa-fw fa-user"></i>Login</a>
+      <a href="SignIn.html"><svg class="bi bi-person-plus" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M11 14s1 0 1-1-1-4-6-4-6 3-6 4 1 1 1 1h10zm-9.995-.944v-.002.002zM1.022 13h9.956a.274.274 0 0 0 .014-.002l.008-.002c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664a1.05 1.05 0 0 0 .022.004zm9.974.056v-.002.002zM6 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm4.5 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
+        <path fill-rule="evenodd" d="M13 7.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0v-2z"/>
+      </svg><i class="fa fa-fw fa-user"></i>Signup</a>
+    </div>
+
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg" >
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+<div class="dropdown">
+  <a class="shadow-none btn dropdown-toggle" href="Category.html" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   Top glasses</a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item bg-dark" href="Category.html">Women</a>
+      <a class="dropdown-item bg-dark" href="Category.html">Men</a>
+      <a class="dropdown-item bg-dark" href="Category.html">Kids</a>
+    </div>
+</div>
+<div class="dropdown">
+  <a class="shadow-none btn dropdown-toggle" href="Category.html" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   Women</a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item bg-dark" href="">SubCategory 1</a>
+      <a class="dropdown-item bg-dark" href="">SubCategory 2</a>
+    </div>
+</div>
+<div class="dropdown">
+  <a class="shadow-none btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Men</a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item bg-dark" href="#">SubCategory 1</a>
+      <a class="dropdown-item bg-dark" href="#">SubCategory 2</a>
+    </div>
+</div>
+<div class="dropdown">
+  <a class="shadow-none btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   Kids </a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item bg-dark" href="#">SubCategory 1</a>
+      <a class="dropdown-item bg-dark" href="#">SubCategory 2</a>
+    </div>
+</div>
+<div class="dropdown">
+  <a class="shadow-none btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Accessories</a>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <a class="dropdown-item bg-dark" href="#">SubCategory 1</a>
+      <a class="dropdown-item bg-dark" href="#">SubCategory 2</a>
+      <a class="dropdown-item bg-dark" href="#">SubCategory 3</a>
+    </div>
+</div>
+</div>
+</nav>
+<nav class="navbar navbar-dark">
+               <p class="col-md-3 d-none d-md-block"> <strong>Make your beauty with us</strong></p>
+               <p class="col-md-3 d-none d-md-block"><mark>Worldwide Shipping</mark> </p>
+                <select title="Currency" class="custom-select col-md-2 col-6" id="inputGroupSelect" aria-label="Example select with button addon">
+                <option selected>AM</option>
+                 <option>RU</option>
+                <option>EN</option>
+              </select>
+              <select title="Currency" class="custom-select col-md-2 col-6" id="inputGroupSelect" aria-label="Example select with button addon">
+                <option selected>֏</option>
+                <option>$</option>       
+                <option>€</option>
+              </select>
+
+              <p class="h6  text-dark text-secondary" style="font-size:40px"></p>
+              <a href="" class="btn btn-primary"> <svg class="bi bi-heart-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+              </svg>  Wishlist</a> 
+         </nav>
+
+<h2>Login Form</h2>
+
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="https://cdn4.iconfinder.com/data/icons/peppyicons-rounded/512/user3-512.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+ <nav aria-label="Page navigation example" class="mt-4">
+<ul class="pagination pg-dark justify-content-center">
+</li>
+<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+    <button type="button" class="btn btn-secondary">1</button>
+    <button type="button" class="btn btn-secondary">2</button>
+    <button type="button" class="btn btn-secondary">3</button>
+    <button type="button" class="btn btn-secondary">...</button>
+    <button type="button" class="btn btn-secondary">40</button>
+  </div>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="d-flex justify-content-center flex-lg-row  flex-column bd-highligh">
+  <a class="text-center flex-fill py-3 px-lg-5 border bg-light text-uppercase font-weight-bold text-decoration-none" href="#">Contact us</a>
+  <a class="text-center flex-fill py-3 px-lg-5 border bg-light text-uppercase font-weight-bold text-decoration-none" href="#">Our branches</a>
+  <a class="text-center flex-fill py-3 px-lg-5 border bg-light text-uppercase font-weight-bold text-decoration-none" href="#">Shipping</a>
+  <a class="text-center flex-fill py-3 px-lg-5 border bg-light text-uppercase font-weight-bold text-decoration-none" href="#">Terms and settings</a>
+</div>
+
+<div class="navbar">
+  <p><strong>Tumo Center for Creative Technologies</strong></p>
+  <p ><strong>By Gayane Safaryan</strong></p>
+</div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
